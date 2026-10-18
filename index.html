@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistem Informasi Data Mahasiswa - Praktikum 3</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <!-- 1. Header Aplikasi -->
@@ -28,7 +30,8 @@
                 <li><a href="#informasi">Informasi Aplikasi</a></li>
                 <li><a href="#daftar-mahasiswa">Daftar Mahasiswa</a></li>
                 <li><a href="#form-tambah">Tambah Mahasiswa</a></li>
-                <li><a href="https://kampus.ac.id" target="_blank" rel="noopener noreferrer">Portal Kampus &UpperRightArrow;</a></li>
+                <li><a href="https://kampus.ac.id" target="_blank" rel="noopener noreferrer">Portal Kampus
+                        &UpperRightArrow;</a></li>
             </ul>
         </div>
     </nav>
@@ -47,9 +50,9 @@
                     <p>Interaktivitas murni berbasis JavaScript dan DOM API tanpa library eksternal.</p>
                 </div>
                 <p>
-                    Aplikasi ini adalah kelanjutan dari <strong>Praktikum 2</strong>. Pada tahap ini, 
-                    halaman web telah dilengkapi logika pemrograman interaktif di sisi klien: validasi form, 
-                    penambahan data instan tanpa muat ulang halaman, penghapusan data dengan konfirmasi, 
+                    Aplikasi ini adalah kelanjutan dari <strong>Praktikum 2</strong>. Pada tahap ini,
+                    halaman web telah dilengkapi logika pemrograman interaktif di sisi klien: validasi form,
+                    penambahan data instan tanpa muat ulang halaman, penghapusan data dengan konfirmasi,
                     pencarian langsung (*live search*), dan pembaruan badge counter secara *real-time*.
                 </p>
 
@@ -79,10 +82,7 @@
                 <!-- Toolbar Pencarian dan Ringkasan Jumlah -->
                 <div class="table-toolbar">
                     <div class="search-box">
-                        <input 
-                            type="search" 
-                            id="input-search" 
-                            class="search-input" 
+                        <input type="search" id="input-search" class="search-input"
                             placeholder="Cari berdasarkan npm atau Nama...">
                     </div>
                     <div id="total-mahasiswa-info" class="status-summary">
@@ -126,22 +126,14 @@
                         <div class="form-grid">
                             <div class="form-group">
                                 <label for="npm" class="form-label">Nomor Induk Mahasiswa (npm):</label>
-                                <input 
-                                    type="text" 
-                                    id="npm" 
-                                    name="npm" 
-                                    class="form-input" 
+                                <input type="text" id="npm" name="npm" class="form-input"
                                     placeholder="Contoh: 230101001">
                                 <span class="form-help">* Wajib 8-12 digit angka dan belum pernah terdaftar.</span>
                             </div>
 
                             <div class="form-group">
                                 <label for="nama" class="form-label">Nama Lengkap:</label>
-                                <input 
-                                    type="text" 
-                                    id="nama" 
-                                    name="nama" 
-                                    class="form-input" 
+                                <input type="text" id="nama" name="nama" class="form-input"
                                     placeholder="Contoh: Ahmad Fauzi">
                                 <span class="form-help">* Minpmal 3 karakter.</span>
                             </div>
@@ -160,22 +152,14 @@
 
                             <div class="form-group">
                                 <label for="angkatan" class="form-label">Tahun Angkatan:</label>
-                                <input 
-                                    type="number" 
-                                    id="angkatan" 
-                                    name="angkatan" 
-                                    class="form-input" 
+                                <input type="number" id="angkatan" name="angkatan" class="form-input"
                                     placeholder="Contoh: 2024">
                                 <span class="form-help">* Tahun antara 2018 - 2026.</span>
                             </div>
 
                             <div class="form-group full-width">
                                 <label for="email" class="form-label">Alamat Email:</label>
-                                <input 
-                                    type="email" 
-                                    id="email" 
-                                    name="email" 
-                                    class="form-input" 
+                                <input type="email" id="email" name="email" class="form-input"
                                     placeholder="Contoh: ahmad.fauzi@example.com">
                                 <span class="form-help">* Masukkan format email yang valid.</span>
                             </div>
@@ -198,8 +182,9 @@
             <p>&copy; 2026 Praktikum Pemrograman Web - Pertemuan 3: JavaScript & DOM Manipulation.</p>
             <p>Project Berkelanjutan: Sistem Informasi Data Mahasiswa (Tahap 3/6)</p>
             <p>
-                Hubungi Administrator: <a href="mailto:admin.sima@kampus.ac.id">admin.sima@kampus.ac.id</a> | 
-                Dokumentasi: <a href="https://github.com" target="_blank" rel="noopener noreferrer">Repository GitHub</a>
+                Hubungi Administrator: <a href="mailto:admin.sima@kampus.ac.id">admin.sima@kampus.ac.id</a> |
+                Dokumentasi: <a href="https://github.com" target="_blank" rel="noopener noreferrer">Repository
+                    GitHub</a>
             </p>
         </div>
     </footer>
@@ -207,6 +192,5 @@
     <!-- Tambahkan Script JavaScript Eksternal -->
     <script src="app.js"></script>
 </body>
+
 </html>
-
-
